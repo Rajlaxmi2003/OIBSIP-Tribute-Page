@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&family=Roboto:wght@500&display=swap');
+
+*{
+    font-family:Roboto,sans-serif;
+    font-size: 1rem;
+    box-sizing: border-box;
+    
+}
+
+body{
+    background:linear-gradient(
+        to right,
+        rgba(2,82,89,.9),
+    rgba(255,255,255,0)
+    ),
+        url("assets/Background image.jpg");
+        background-position: center center;
+        background-size:cover;
+        background-repeat: no-repeat;
+        text-align: center;
+        padding: 10px;
+        margin: 20px;
+        
+}
+.heading-container .main-heading {
+    display:flex;
+    justify-content: center;
+    flex-basis: 200px;
+    padding:2rem;
+    font-size: 4rem;
+    align-items: center;
+    color: white;
+    
+}
+
+.sub-heading{
+    font-size:2rem;
+    color:white;
+    display: flex;
+    flex-basis: 100px;
+    justify-content: center;
+    
+}
+img{
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+.main-image{
+    
+    max-width:50%;
+    margin-bottom:30px;
+    margin-top:30px;
+    border:200px white;
+    box-shadow: 30px 30px 30px rgb(53, 51, 52); 
+    
+}
+
+.quote-container h3{
+    color:white;
+    font-size:2rem;
+    display: flex;
+    flex-basis: 100px;
+    justify-content: center;
+
+}
+
+
+.paragraph-container{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+}
+
+.para-heading{
+    text-decoration:underline;
+}
+
+
+
+.contentbox-1{
+    padding:30px;
+    font-size: 400px;
+    display: flex;
+    flex-direction: column;
+    width:50%;
+    justify-content: center;
+    align-items: center;
+    color:white;
+}
+
+
+
+
+.contentbox-2{
+    padding:30px;
+    font-size: 400px;
+    display: flex;
+    flex-direction: column;
+    width:50%;
+    justify-content: center;
+    align-items: center;
+    color:white;
+
+}
+
+.sub-image{
+    max-width:100%;
+    margin-bottom:30px;
+    margin-top:30px;
+    box-shadow: 30px 30px 30px rgb(53, 51, 52); 
+}
+
+.information{
+    text-align: left;
+    font-size: 15px;
+}
+
